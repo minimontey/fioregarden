@@ -1,0 +1,16 @@
+//Option B -required bootstrap partials
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+@import "./vendor/bootstrap/scss/functions";
+@import "./vendor/bootstrap/scss/variables";
+@import "./vendor/bootstrap/scss/mixins";
+
+//our custom codes goes here. overrides. 
+$theme-colors: (
+    "primary": #e1c1bf
+);
+$btn-border-radius: 10rem;
+$font-family-base: "Quicksand", sans-serif;
+$link-color: #fff9fa;
+
+//set all the values
+@import "./vendor/bootstrap/scss/bootstrap";
